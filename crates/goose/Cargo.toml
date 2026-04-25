@@ -151,7 +151,7 @@ sacp = { workspace = true, features = ["unstable"] }
 unicode-normalization = "0.1"
 
 # For local Whisper transcription (optional, behind "local-inference" feature)
-candle-core = { version = "0.9", default-features = false, optional = true }
+candle-core = { version = "0.10", default-features = false, optional = true }
 candle-nn = { version = "0.9", default-features = false, optional = true }
 candle-transformers = { version = "0.9", default-features = false, optional = true }
 byteorder = { version = "1.5.0", optional = true }
